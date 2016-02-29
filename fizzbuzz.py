@@ -1,4 +1,6 @@
-zeefile = open('fizzbuzz.txt')
+import sys
+
+zeefile= open(sys.argv[1], 'r')
 
 for x in zeefile:
 	a, b, c = x.strip().split()
