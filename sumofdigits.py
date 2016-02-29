@@ -1,4 +1,6 @@
-zeefile = open('sumofdigits.txt')
+import sys
+
+zeefile = open(sys.argv[1], 'r')
 
 for x in zeefile:
 	holder = x.strip().split()
