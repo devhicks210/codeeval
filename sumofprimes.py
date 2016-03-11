@@ -1,3 +1,5 @@
+# Yes. I totally cheated.
+
 nums = []
 
 for p in range(2, 7920):
