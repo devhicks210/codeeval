@@ -1,3 +1,5 @@
+# h/t: http://stackoverflow.com/questions/494594/how-to-write-the-fibonacci-sequence-in-python
+
 import sys
 
 zeefile = open(sys.argv[1], 'r')
